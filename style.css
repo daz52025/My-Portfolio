@@ -1,0 +1,54 @@
+#navbar {
+    margin: 0;
+    width: 800px;
+    background-color: rgb(44, 142, 142);
+    border-radius: 20px;
+    padding: 10px;
+}
+
+#projects {
+    font-size: 19px;
+    text-decoration: none;
+    color: blue;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+#heading {
+    padding-right: 100px;
+    cursor: default;
+}
+
+li {
+    float: left;
+
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    border-radius: 20px;
+    display: inline-block;
+}
+
+li a:hover {
+    background-color: hsl(0, 0%, 15%);
+    border-radius: 20px;
+}
+
+li a:active {
+    background-color: hsl(0, 0%, 50%);
+    border-radius: 20px;
+}
+
+p {
+    font-size: 19px;
+}
